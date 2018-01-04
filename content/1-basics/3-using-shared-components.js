@@ -24,7 +24,7 @@ In this lesson, we need a simple Next.js app to play with. Try downloading the f
 ~~~bash
 git clone https://github.com/arunoda/learnnextjs-demo.git
 cd learnnextjs-demo
-git checkout navigate-between-pages
+git checkout using-shared-components
 ~~~
 
 You can run it with:

@@ -28,7 +28,7 @@ First of all, we need a simple Next.js app to play with. Try to download the fol
 ~~~sh
 git clone https://github.com/arunoda/learnnextjs-demo.git
 cd learnnextjs-demo
-git checkout create-dynamic-pages
+git checkout clean-urls
 ~~~
 
 You can run it with:

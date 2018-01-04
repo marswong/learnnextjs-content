@@ -26,7 +26,7 @@ In this lesson, we need a simple Next.js app to play with. Try to download the f
 ~~~bash
 git clone https://github.com/arunoda/learnnextjs-demo.git
 cd learnnextjs-demo
-git checkout clean-urls-ssr
+git checkout data-fetching
 ~~~
 
 You can run it with:

@@ -22,7 +22,7 @@ First of all, we need a simple Next.js app to play with. Try to download the fol
 ~~~bash
 git clone https://github.com/arunoda/learnnextjs-demo.git
 cd learnnextjs-demo
-git checkout using-shared-components
+git checkout static-blog-final
 ~~~
 
 You can run it with:

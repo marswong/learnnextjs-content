@@ -30,7 +30,7 @@ First of all, we need a simple Next.js app to play with. Try to download the fol
 ~~~bash
 git clone https://github.com/arunoda/learnnextjs-demo.git
 cd learnnextjs-demo
-git checkout using-shared-components
+git checkout create-dynamic-pages
 ~~~
 
 You can run it with:

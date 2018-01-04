@@ -33,7 +33,7 @@ In order to follow along with this lesson, you need to have a simple Next.js app
 ~~~bash
 git clone https://github.com/arunoda/learnnextjs-demo.git
 cd learnnextjs-demo
-git checkout getting-started
+git checkout navigate-between-pages.
 ~~~
 
 You can run it with:

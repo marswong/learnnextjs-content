@@ -24,7 +24,7 @@ Let's see how we can do it.
   ~~~bash
   git clone https://github.com/arunoda/learnnextjs-demo.git
   cd learnnextjs-demo
-  git checkout clean-urls
+  git checkout clean-urls-ssr
   ~~~
 
   You can run it with:
@@ -52,7 +52,7 @@ Let's see how we can do it.
       text: `
 ## Create a Custom Server
 
-Now we are going to create a custom server for our app using [Express](https://expressjs.com/). It's pretty simple. 
+Now we are going to create a custom server for our app using [Express](https://expressjs.com/). It's pretty simple.
 
 First of all, add Express into your app:
 
@@ -96,7 +96,7 @@ Now update your npm dev script to:
   "scripts": {
     "dev": "node server.js"
   }
-} 
+}
 ~~~
 
 Now try to run your app again with \`npm run dev\`.
@@ -121,7 +121,7 @@ What's the you experience you will get?
 
 As you've experienced, the app will work just like it did previously because the custom server we wrote is similar to the “next” binary command.
 
-Now we are going to add a custom route to match our blog post URLs. 
+Now we are going to add a custom route to match our blog post URLs.
 
 With the new route, our \`server.js\` will look like this:
 
@@ -139,7 +139,7 @@ app.prepare()
 
   server.get('/p/:id', (req, res) => {
     const actualPage = '/post'
-    const queryParams = { title: req.params.id } 
+    const queryParams = { title: req.params.id }
     app.render(req, res, actualPage, queryParams)
   })
 
@@ -163,7 +163,7 @@ Have a look at the code below:
 ~~~js
 server.get('/p/:id', (req, res) => {
     const actualPage = '/post'
-    const queryParams = { title: req.params.id } 
+    const queryParams = { title: req.params.id }
     app.render(req, res, actualPage, queryParams)
 })
 ~~~
@@ -205,7 +205,7 @@ You can see it in the following route definition:
 ~~~js
 server.get('/p/:id', (req, res) => {
   const actualPage = '/post'
-  const queryParams = { title: req.params.id } 
+  const queryParams = { title: req.params.id }
   app.render(req, res, actualPage, queryParams)
 })
 ~~~
@@ -216,7 +216,7 @@ So, we only need an ID.
       `
     },
 
-    { 
+    {
       id: 'finally',
       type: 'text',
       points: 5,
